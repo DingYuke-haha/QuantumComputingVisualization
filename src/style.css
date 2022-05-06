@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+  }
+  
+
+  body{
+      overflow: hidden;
+  }
+  /* Targeting canvas to get rid of scroll bar */
+  /* outline: get rid of the outline. But the outline cannot be seen from my OS. */
+  .interface {
+    width: 100vw;
+    height: 100vh;
+    background: #ff7b0031;
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+  }
+
+  .start{
+      height: 8vh;
+      width: auto;
+      background: #ff7b00;
+      line-height:8vh;
+  }
+
+  .main{
+      width: 100vw;
+      height: auto;
+      display: flex;
+      justify-content: space-between;
+  }
+  
+  .title{
+      font-size: x-large;
+      color: white;
+  }
+
+  .flow{
+      width: 60vw;
+  }
+  .qubitFlow{
+      height: 4vw;
+      width: auto;
+      /* background: white; */
+      margin: 2px;
+      display: flex;
+      justify-content: space-between;
+      /* line-height: 4vw; */
+  }
+
+  .gate{
+      height: 3vw;
+      width: 3vw;
+      background: white;
+      margin-top: auto;
+      margin-bottom: auto;
+      border-style: solid;
+      border-width: 2px;
+      border-radius: 3px;
+      border-color: #ff7b00;
+  }
+
+
+  .barResult{
+      position: relative;
+      left: 3vw;
+      top:1vw;
+      height: 2vh;
+      width: 6vw;
+      background: #ff7b00;
+      z-index: -1;
+  }
+  .num{
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-left: 2vw; */
+    font-size: larger;
+    position: relative;
+    left: 2vw;
+    width: 5vw;
+  }
+
+
+.right{
+    width:40vw;
+}
+
+.standardGates{
+    display: flex;
+    justify-content: space-around;
+    margin: 2vh 5vw;
+}
+
+.standardGate{
+    height: 3vw;
+    width: 3vw;
+    background: white;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    border-color: #ff7b00;
+    
+}
+
+.draggable{
+    /* cursor:move; */
+}
+
+.standard1{
+    background: #e9e1da;
+}
+.standard2{
+    background: #debea2;
+}
+.standard3{
+    background: #f1ab6e;
+}
+.standard4{
+    background: #e98b38;
+}
+.standard5{
+    background: #7f3e05;
+}
+
+.bloch{
+    padding: 20px;
+}
