@@ -1,4 +1,4 @@
-# Three.js Journey
+# Quantum Computing Visualization
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
